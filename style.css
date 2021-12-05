@@ -1,0 +1,35 @@
+
+/* div {border: 1px solid #ccc;} */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    appearance: none!important;
+    margin: 0!important; 
+}
+
+body
+{
+    font-size: calc(8px + (26px - 8px) * ((100vw - 300px) / (1600 - 300)));
+}
+
+ /* .div1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 0rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    animation-name: example;
+    animation-duration: .4s;
+    filter: drop-shadow(2px 4px 6px #a6a6a6);
+} */
+ @keyframes example {
+0%   {font-size: 10rem; opacity: 5;}
+/* 25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;} */
+  100% {font-size: 0rem; opacity: 0;}
+}   
